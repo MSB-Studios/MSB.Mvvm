@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<!--Project properties-->
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<RootNamespace>MSB</RootNamespace>
+		<LangVersion>12.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<Company>MSB Studios</Company>
+		<Authors>MSB Studios</Authors>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<AssemblyName>MSB.Mvvm</AssemblyName>
+		<NoWarn>NU1900</NoWarn>
+	</PropertyGroup>
+
+	<!--NuGet properties-->
+	<PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Version>2.0.0</Version>
+		<PackageIcon>Icon.png</PackageIcon>
+		<PackageTags>Mvvm; .NET; WinForms; WPF; UWP; WASDK; Android</PackageTags>
+		<Description>MSB.Mvvm is a .NET library designed to provide cross-platform solutions.</Description>
+		<PackageProjectUrl>https://github.com/MSB-Studios/MSB.Mvvm-NET-Standard</PackageProjectUrl>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<PackageId>MSB.Mvvm</PackageId>
+	</PropertyGroup>
+
+	<!--Assets include-->
+	<ItemGroup>
+		<None Include="Icon.png" Pack="True" PackagePath="\" />
+		<None Include="../LICENSE.txt" Pack="True" PackagePath="\" />
+		<None Include="../README.md" Pack="True" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="System.Runtime.CompilerServices" />
+		<Using Include="System.ComponentModel" />
+		<Using Include="System.Windows.Input" />
+	</ItemGroup>
+
+</Project>
