@@ -19,11 +19,11 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<Version>2.0.0</Version>
+		<Version>2.0.1</Version>
 		<PackageIcon>Icon.png</PackageIcon>
 		<PackageTags>Mvvm; .NET; WinForms; WPF; UWP; WASDK; Android</PackageTags>
 		<Description>MSB.Mvvm is a .NET library designed to provide cross-platform solutions.</Description>
-		<PackageProjectUrl>https://github.com/MSB-Studios/MSB.Mvvm-NET-Standard</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/MSB-Studios/MSB.Mvvm</PackageProjectUrl>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<PackageId>MSB.Mvvm</PackageId>
 	</PropertyGroup>
